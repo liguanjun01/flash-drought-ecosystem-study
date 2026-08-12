@@ -41,29 +41,3 @@ Given the large storage volume of the original datasets, readers may visit the c
 The analysis code used in this study is publicly available at:
 
 https://github.com/liguanjun01/flash-drought-ecosystem-study
-
-## Software
-
-The analysis scripts were developed using:
-
-* MATLAB
-* Python
-
-## Repository Structure
-
-```text
-flash-drought-ecosystem-study/
-│
-├── README.md
-└── code/
-    ├── MATLAB scripts
-    └── Python scripts
-```
-
-## Citation
-
-If you use the analysis code from this repository, please cite or acknowledge this repository:
-
-Yin, Y. (2026). *Flash Drought Ecosystem Study: Analysis Code Repository*. GitHub.
-
-https://github.com/liguanjun01/flash-drought-ecosystem-study
