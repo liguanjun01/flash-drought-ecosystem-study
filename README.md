@@ -1,6 +1,6 @@
 # Flash Drought Ecosystem Study
 
-This repository contains the analysis code associated with the study of flash drought characteristics and ecosystem responses.
+Code for Response of ecosystem productivity and stability to flash droughts across moisture gradients in China
 
 ## Code
 
