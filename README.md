@@ -6,48 +6,64 @@ This repository contains the analysis code associated with the study of flash dr
 
 The `code/` directory contains MATLAB and Python scripts used for:
 
-- Flash drought identification
-- Flash drought structural characteristic analysis
-- Mann-Kendall mutation test
-- Joint distribution analysis
-- Ecosystem response analysis
-- Ecosystem loss calculation
-- Ecosystem stability analysis
-- Partial correlation analysis
-- Interaction analysis
+* Flash drought identification
+* Flash drought structural characteristic analysis
+* Mann-Kendall mutation test
+* Joint distribution analysis
+* Ecosystem response analysis
+* Ecosystem loss calculation
+* Ecosystem stability analysis
+* Partial correlation analysis
+* Interaction analysis
 
 ## Data Availability
 
-The preprocessed datasets used in this study are publicly available on Zenodo.
+All datasets utilized in this study are publicly accessible and free to download from their respective official platforms.
 
-**Dataset Version 1.0:**  
-https://doi.org/10.5281/zenodo.21886126
+Specifically, root-zone soil moisture data were derived from the ECMWF ERA5-Land reanalysis product:
 
-The dataset contains:
+https://cds.climate.copernicus.eu/
 
-- Preprocessed ERA5-Land soil moisture data
-- Preprocessed GOSIF-GPP data
-- Preprocessed GOSIF-SIF data
+Solar-induced chlorophyll fluorescence (SIF) and gross primary productivity (GPP) data were obtained from the GOSIF dataset:
+
+http://data.globalecology.unh.edu/
+
+The Global Aridity Index (AI) was obtained from Version 2 of the Global Aridity Index and Potential Evapotranspiration (ET₀) Climate Database:
+
+https://figshare.com/articles/dataset/Global_Aridity_Index_and_Potential_Evapotranspiration_ET0_Climate_Database_v2/7504448/5
+
+The 2020 land use and land cover dataset (CNLUCC, abbreviated as LULC) was provided by the Resource and Environment Science Data Center, Chinese Academy of Sciences:
+
+http://www.resdc.cn/
+
+Given the large storage volume of the original datasets, readers may visit the corresponding official platforms to obtain the complete raw data as required.
+
+The analysis code used in this study is publicly available at:
+
+https://github.com/liguanjun01/flash-drought-ecosystem-study
 
 ## Software
 
 The analysis scripts were developed using:
 
-- MATLAB
-- Python
+* MATLAB
+* Python
 
-## Data and Code
+## Repository Structure
 
-Data:
-https://doi.org/10.5281/zenodo.21886126
-
-Code:
-https://github.com/liguanjun01/flash-drought-ecosystem-study
+```text
+flash-drought-ecosystem-study/
+│
+├── README.md
+└── code/
+    ├── MATLAB scripts
+    └── Python scripts
+```
 
 ## Citation
 
-If you use the associated dataset, please cite:
+If you use the analysis code from this repository, please cite or acknowledge this repository:
 
-Yin, Y. (2026). *Preprocessed ERA5-Land Soil Moisture, GOSIF-GPP and GOSIF-SIF Datasets for Flash Drought and Ecosystem Response Analysis* (Version 1.0) [Dataset]. Zenodo.
+Yin, Y. (2026). *Flash Drought Ecosystem Study: Analysis Code Repository*. GitHub.
 
-https://doi.org/10.5281/zenodo.21886126
+https://github.com/liguanjun01/flash-drought-ecosystem-study
