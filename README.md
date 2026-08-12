@@ -2,22 +2,6 @@
 
 Code for Response of ecosystem productivity and stability to flash droughts across moisture gradients in China
 
-## Code
-
-The `code/` directory contains MATLAB and Python scripts used for:
-
-* Flash drought identification
-* Flash drought structural characteristic analysis
-* Mann-Kendall mutation test
-* Joint distribution analysis
-* Ecosystem response analysis
-* Ecosystem loss calculation
-* Ecosystem stability analysis
-* Partial correlation analysis
-* Interaction analysis
-
-## Data Availability
-
 All datasets utilized in this study are publicly accessible and free to download from their respective official platforms.
 
 Specifically, root-zone soil moisture data were derived from the ECMWF ERA5-Land reanalysis product:
